@@ -10,82 +10,81 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mq.css">
+    <title>Bootstrap Portfolio</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar sticky-top navbar-light bg-faded">
-                        <a class="navbar-brand" href="#">Benjamin Baumann</a>
-                        <ul class="nav nav-tabs justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+
+    <header>
+        <nav class="navbar sticky-top navbar-light bg-faded">
+            <div class="container">
+                <div class="navbar-inner">
+                    <a class="navbar-brand" href="#">
+                        <h1>Benjamin Baumann</h1>
+                    </a>
+                    <ul class="nav nav-tabs justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+    </header>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="card">
-                        <div class="card-block">
-                            <h2>Contact</h2>
-                            <hr>
-                            <form action="#">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" id="name" placeholder="John Doe"
-                                        class="form-control">
-                                    <label for="email">Email</label>
-                                    <input type="text" name="email" id="email" placeholder="johndoe@thisisbam.com"
-                                        class="form-control">
-                                    <label for="message">Message</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                                    <button>Submit</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-block social">
-                            <h2>Conect with Me</h2>
-                            <hr>
-                            <ul class="row">
-                                <li class='col-md-4'><a href="http://github.com"><img src="assets/images/github.svg" alt="github"></a></li>
-                                <li class='col-md-4'><a href="http://linkedin.com"><img src="assets/images/linkedin.svg" alt="linkedin"></a></li>
-                                <li class='col-md-4'><a href="http://stackoverflow.com"><img src="assets/images/stackoverflow.svg" alt="stackoverflow"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
                 <div class="card">
                     <div class="card-block">
-                        Footer
+                        <h2>Contact</h2>
+                        <hr>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Doe" class="form-control">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" placeholder="johndoe@thisisbam.com" class="form-control">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                <button>Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-block social">
+                        <h2>Conect with Me</h2>
+                        <hr>
+                        <ul class="row">
+                            <li class='col-md-4'><a href="http://github.com"><img src="assets/images/github.svg" alt="github"></a></li>
+                            <li class='col-md-4'><a href="http://linkedin.com"><img src="assets/images/linkedin.svg" alt="linkedin"></a></li>
+                            <li class='col-md-4'><a href="http://stackoverflow.com"><img src="assets/images/stackoverflow.svg" alt="stackoverflow"></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
+
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <p class="copyright">&#169;Copyright 2017 Benjamin Baumann</p>
+            </div>
+        </div>
+    </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"

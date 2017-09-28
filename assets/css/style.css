@@ -1,8 +1,28 @@
 body {
-  background: #333;
+  background: url("../images/background.png");
 }
 header {
   margin-bottom: 20px;
+}
+.logo, .h {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+.logo {
+    font-size: 2em;
+    height: 80px;
+    background: #4aaaa5;
+    padding: 0 20px;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex button {
+    top:20px;
 }
 .article-img {
   float: left;
@@ -33,4 +53,37 @@ header {
 #footer {
   height: 60px;
   background-color: #f5f5f5;
+}
+
+.mini-card {
+  width: 100%;
+  position: relative;
+}
+.mini-card img {
+  width: 100%;
+}
+.ribbon {
+  display: block;
+  width: 100%;
+  background: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 10%;
+}
+
+#footer {
+    text-align: center;
+    display:flex;
+    align-items: center;
+    color:#fff;
+    background: #333;
+}
+
+
+
+/* Bootstrap overrides */
+.navbar, .navbar-brand {
+    padding: 0px;
 }
