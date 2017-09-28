@@ -1,0 +1,18 @@
+body{
+    background: #333;
+}
+
+.article-img {
+    float:left;
+    margin-right: 3%;
+}
+
+.social ul li {
+    list-style-type: none;
+}
+.social ul li img {
+    width: 100%;
+}
+.social ul {
+    padding: 0px;
+}
