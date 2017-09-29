@@ -6,6 +6,19 @@
   .social ul li{
       width: 33%;
   }
+  .navbar{
+    background: #4aaaa5;
+  }
+  .logo {
+    font-size: 5.2vw;
+    transition: .25s;
+    /* padding: 0 100px; */
+  }
+   .navbar-toggler {
+    position:fixed;
+    right: 20px;
+    background: #fff;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -20,6 +33,9 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 1.5rem;
+  }
   img.me {
     float: left;
     margin-right: 20px;

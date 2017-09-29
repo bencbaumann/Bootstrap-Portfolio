@@ -17,66 +17,68 @@
 <body>
 
     <header>
-        <nav class="navbar sticky-top navbar-light bg-faded">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
             <div class="container">
-                <div class="navbar-inner">
-                    <a class="navbar-brand" href="#">
-                        <h1>Benjamin Baumann</h1>
-                    </a>
-                    <ul class="nav nav-tabs justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                <div class="flex">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <a class="navbar-brand" href="#">
+                    <div class="logo"><span class="name">Benjamin Baumann</span></div>
+                </a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link active" href="contact.html">Contact</a>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-block">
-                        <h2>Contact</h2>
-                        <hr>
-                        <form action="#">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" id="name" placeholder="John Doe" class="form-control">
-                                <label for="email">Email</label>
-                                <input type="text" name="email" id="email" placeholder="johndoe@thisisbam.com" class="form-control">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                                <button>Submit</button>
-                            </div>
-                        </form>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-block">
+                            <h2>Contact</h2>
+                            <hr>
+                            <form action="#">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" placeholder="John Doe" class="form-control">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" placeholder="johndoe@thisisbam.com" class="form-control">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                    <button>Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-block social">
+                            <h2>Conect with Me</h2>
+                            <hr>
+                            <ul class="row">
+                                <li class='col-md-4'><a href="http://github.com"><img src="assets/images/github.svg" alt="github"></a></li>
+                                <li class='col-md-4'><a href="http://linkedin.com"><img src="assets/images/linkedin.svg" alt="linkedin"></a></li>
+                                <li class='col-md-4'><a href="http://stackoverflow.com"><img src="assets/images/stackoverflow.svg" alt="stackoverflow"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-block social">
-                        <h2>Conect with Me</h2>
-                        <hr>
-                        <ul class="row">
-                            <li class='col-md-4'><a href="http://github.com"><img src="assets/images/github.svg" alt="github"></a></li>
-                            <li class='col-md-4'><a href="http://linkedin.com"><img src="assets/images/linkedin.svg" alt="linkedin"></a></li>
-                            <li class='col-md-4'><a href="http://stackoverflow.com"><img src="assets/images/stackoverflow.svg" alt="stackoverflow"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
-
-    </div>
+    </main>
 
     <footer>
         <div id="footer">

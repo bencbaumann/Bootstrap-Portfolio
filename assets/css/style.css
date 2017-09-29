@@ -10,6 +10,7 @@ header {
 }
 .logo {
     font-size: 2em;
+    transition: .25s;
     height: 80px;
     background: #4aaaa5;
     padding: 0 20px;
@@ -28,7 +29,9 @@ header {
   float: left;
   margin-right: 3%;
 }
-
+.card {
+  box-shadow: 10px 10px 5px #222;
+}
 .social ul li {
   list-style-type: none;
 }
