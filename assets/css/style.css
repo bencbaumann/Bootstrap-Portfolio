@@ -4,6 +4,9 @@ body {
 header {
   margin-bottom: 20px;
 }
+div {
+  transition: all .5s linear;
+}
 .logo, .h {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -90,3 +93,4 @@ header {
 .navbar, .navbar-brand {
     padding: 0px;
 }
+
